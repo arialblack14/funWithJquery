@@ -10,12 +10,19 @@ h1 {
 	color: lightblue;
 }
 
-.hide {
-	display: none;
-}
-
-
 img {
 	float: left;
 	cursor: pointer;
 }
+
+/* Classes for enlarging the image 
+that is being clicked 
+while at the same time setting 
+all others to initial sizes*/
+
+.big {
+	width: 800px;
+	height: 800px;
+}
+
+

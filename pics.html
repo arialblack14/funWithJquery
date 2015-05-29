@@ -21,8 +21,11 @@
 <script>
 
 	$(document).ready(function() {
+
 		$('div').on('click', 'img', function(){
-			$(this).addClass('hide');
+			$(this).addClass('big')
+							.siblings('img')
+							.removeClass('big');
 		})
 	});
 
